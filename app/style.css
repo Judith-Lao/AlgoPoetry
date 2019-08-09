@@ -1,7 +1,27 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
   height: 100vh;
   width: 100vw;
+} */
+
+header {
+  width:100%;
+  padding: 15px;
+  background-color: #D8D8BF;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+h5 {
+  background-color: black
+}
+
+body {
+  margin: 0;
+  font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+  background-color: #FFFEFA;
+  color: #fff;
+  text-align: center;
 }
 
 #app {
@@ -42,4 +62,20 @@ body {
 
 #counter button:hover {
   background-color: #00AAAA;
+}
+
+
+.bottom{
+  width: 320px;
+  border-radius: 10px;
+  background-color: #1D4F27;
+  margin: 10px auto 0 auto;
+  padding: 20px;
+}
+
+.bottom button {
+  width: 150px;
+  height: 56px;
+  margin: 4px 2px;
+  padding: 20px 36px;
 }
